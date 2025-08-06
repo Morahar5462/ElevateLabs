@@ -34,4 +34,6 @@ freq                          1   577       7        4      644
 Output Screenshots:
 
 <img width="745" height="576" alt="Screenshot 2025-08-06 213030" src="https://github.com/user-attachments/assets/88787931-bc11-45ad-a655-8df6e7c755d1" />
+<img width="490" height="580" alt="Screenshot 2025-08-06 213157" src="https://github.com/user-attachments/assets/9959d8e7-fbbf-49e1-a5b2-465e26217f99" />
+
 

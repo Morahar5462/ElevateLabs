@@ -1,0 +1,48 @@
+Basic Information about the dataset:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 891 entries, 0 to 890
+Data columns (total 12 columns):
+ #   Column       Non-Null Count  Dtype
+---  ------       --------------  -----
+ 0   PassengerId  891 non-null    int64
+ 1   Survived     891 non-null    int64
+ 2   Pclass       891 non-null    int64
+ 3   Name         891 non-null    object
+ 4   Sex          891 non-null    object
+ 5   Age          714 non-null    float64
+ 6   SibSp        891 non-null    int64
+ 7   Parch        891 non-null    int64
+ 8   Ticket       891 non-null    object
+ 9   Fare         891 non-null    float64
+ 10  Cabin        204 non-null    object
+ 11  Embarked     889 non-null    object
+dtypes: float64(2), int64(5), object(5)
+memory usage: 83.7+ KB
+None
+
+Null values in each column:
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+
+First 5 rows:
+   PassengerId  Survived  Pclass                                               Name  ...            Ticket     Fare  Cabin  Embarked
+0            1         0       3                            Braund, Mr. Owen Harris  ...         A/5 21171   7.2500    NaN         S
+1            2         1       1  Cumings, Mrs. John Bradley (Florence Briggs Th...  ...          PC 17599  71.2833    C85         C
+2            3         1       3                             Heikkinen, Miss. Laina  ...  STON/O2. 3101282   7.9250    NaN         S
+3            4         1       1       Futrelle, Mrs. Jacques Heath (Lily May Peel)  ...            113803  53.1000   C123         S
+4            5         0       3                           Allen, Mr. William Henry  ...            373450   8.0500    NaN         S
+
+[5 rows x 12 columns]
+
+Number of rows after removing outliers: 577

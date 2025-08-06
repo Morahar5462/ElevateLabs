@@ -29,3 +29,7 @@ freq                          1   577       7        4      644
 - Pclass vs Survival: 1st class passengers had far greater survival odds than 3rd.
 - Family features SibSp and Parch: Large families less common among survivors; singles/duos fared best.
 - Visuals highlight clear class and gender disparities in survival (which is well-established in Titanic EDA).
+
+
+Output Screenshots:
+
